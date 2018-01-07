@@ -66,6 +66,7 @@ void setup() {
 	delay(1000);
   
 	Serial.begin(115200);
+ 
 	Serial.println();
   WiFi.mode(WIFI_AP);               //Only Access point
 	Serial.println("Configuring access point...");
